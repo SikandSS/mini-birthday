@@ -25,7 +25,6 @@ onload = () => {
 // });
 
 function handleconfetti() {
-  debugger;
 
   const jsConfetti = new JSConfetti();
 
@@ -53,7 +52,6 @@ jsConfetti.addConfetti({
 
   var box = document.getElementById("wishes");
   let maintext = document.getElementById("main-text");
-  debugger;
   if(box.className == "heart"){
     box.className = "wish-box"
     let text = document.getElementById("text");
